@@ -1,1 +1,12 @@
-# Twitter Social Configs:spring:  social:    twitter:      appId: APP_ID      appSecret: APP_SECRET      accessToken: ACCESS_TOKEN      accessTokenSecret: ACCESS_TOKEN_SECRET  kafka:    bootstrap-servers: 192.168.99.101:9092    template:      default-topic: tweets
+# Twitter Social Configs:
+spring:
+  social:
+    twitter:
+      appId: 'mhMVMdhAbkzT2jJswSDSvJixL'
+      appSecret: 'zlnenWRAfX59qKK4aT62dM6OR37aZdSlqBJZjmtjlKcLtOI9Ok'
+      accessToken: '941788908634984448-C8ou9EfrqhQ1276HvOh5TwkXZjJ60T4'
+      accessTokenSecret: 'BEgeQOHJAK0ZwT3FIpTLCxVMH5GtscvF5UOXz4438MX8W'
+  kafka:
+    bootstrap-servers: 192.168.99.101:9092
+    template:
+      default-topic: tweets
